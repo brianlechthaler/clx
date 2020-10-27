@@ -9,4 +9,4 @@ export EphemeralGit="$EphemeralMount/git"
 mkdir -p $EphemeralGit
 cp -r $PWD $EphemeralGit/clx
 pip install docker-compose
-docker-compose up
+docker-compose up --force-recreate
