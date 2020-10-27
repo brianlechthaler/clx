@@ -17,7 +17,7 @@ services:
     ports: 
       - "8888:8888"
       - "8787:8787"
-      - "9686:9686"
+      - "8686:8686"
     stdin_open: true
     tty: true
     runtime: nvidia
